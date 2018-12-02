@@ -20,7 +20,7 @@ body{
 
 .name{
     font-size: 150px;
-    font-weight: 200;
+    font-weight: 250;
     text-shadow: 2px 2px #000000;
 }
 
@@ -55,7 +55,13 @@ p{
 
 #content{
     float: left;
-    white-space: nowrap;
     text-align: left;
     
+}
+
+.proPic{
+    width: 150px;
+    height: 200px;
+    margin: auto 0;
+    text-align: center;
 }
