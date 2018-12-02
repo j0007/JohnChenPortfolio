@@ -1,0 +1,20 @@
+#intro{
+    border-right: 5px solid black;
+}
+
+.name{
+    font-size: 150px;
+    font-weight: 200;
+}
+
+#icons{
+    font-size:35px;
+}
+
+.iBtn {
+    color:black;
+}
+
+.contBox{
+    font-size: 20px;
+}
