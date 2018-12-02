@@ -1,5 +1,7 @@
 #intro{
-    border-right: 5px solid black;
+    border-right: 3px solid black;
+    float: left; 
+    white-space: nowrap;
 }
 
 .name{
@@ -15,6 +17,20 @@
     color:black;
 }
 
-.contBox{
+.contBox,
+p{
     font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+#collapseCard{
+    width: 60%;
+}
+
+#content{
+    float: left;
+    white-space: nowrap;
 }
