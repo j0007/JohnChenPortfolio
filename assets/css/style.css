@@ -1,7 +1,21 @@
+body{
+    background-image: url("../images/backgroundimg.jpeg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.pageBody{
+    height:100vh;
+    
+}
+
 #intro{
-    border-right: 3px solid black;
+    border-right: 3px solid white;
     float: left; 
     white-space: nowrap;
+    color:snow;
+    text-shadow: 2px 2px #000000;
 }
 
 .name{
@@ -14,16 +28,21 @@
 }
 
 .iBtn {
-    color:black;
+    color: white;
+    text-shadow: 2px 2px #000000;
 }
 
-.contBox,
 p{
-    font-size: 20px;
+    
+    font-size: 25px;
     font-weight: 200;
     text-align: left;
     margin-bottom: 0px;
     padding-left: 10px;
+    text-align: center;
+    
+    opacity: .8;
+    
 }
 
 #collapseCard{
@@ -33,4 +52,6 @@ p{
 #content{
     float: left;
     white-space: nowrap;
+    text-align: left;
+    
 }
